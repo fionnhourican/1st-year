@@ -1,0 +1,104 @@
+/* These are some suggested groupings for your stylesheet... */
+
+
+/* box sizing */
+
+
+/* element styling (e.g. standard p, h1, h2, a, etc) */
+
+h1 {font-family: 'Merriweather', seri;
+	  font-size: 50px; }
+
+h2 {font-family: 'Merriweather', seri;
+ font-size: 30px;
+ text-align: centre;
+ }
+
+
+p { text-align: center;
+ font-family: 'Roboto Slab', serif;
+ font-size: 20px; 
+}
+
+figcaption { text-align: centre;
+}
+
+/* flexible content images code */
+
+
+/* navigation styles */
+
+/* source w3s */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-top: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+
+/* page header styles*/
+header {
+  padding: 50px;
+  text-align: center;
+  background: #d6dcf0;
+  color: #000000;
+
+}
+/* main layout */
+
+body { background-color: #f0ead6;
+
+}
+
+/* styling for the section content */
+section { background-color: #d6dcf0;
+ color: #000000;
+ border: 15px solid #333;
+ text-align: center;
+ margin-left: 15%;
+ margin-right: 15%;
+ padding-left: 10%;
+ padding-right: 10%;
+ margin-bottom: 30px;
+ }
+
+/* background colours for sections */
+
+
+/* form styling */
+section#contact { 
+ text-align: center;
+}
+/* sourced at w3schools */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+/* footer styling */
+footer {
+  padding: 25px;
+  text-align: center;
+  background: #333;
+  color: white;
+  margin-left: o%;
+  margin-right: 0%;
+
+}

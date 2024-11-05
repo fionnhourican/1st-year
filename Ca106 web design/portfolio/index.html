@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Add your meta description" />
+    <!-- meta tag below is used for Internet Explorer and mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--This means that the browser will (probably) render the width of the page at the width of its own screen. //-->
+    <title>Fionn Hourican</title>
+    <!-- add your stylesheet and any other styling code, e.g. google fonts  a good link is https://fonts.google.com/-->
+	<link rel="stylesheet" href="css/text.css" /> 
+</head>
+
+<!-- all the classes below will require some CSS styles to be included in your layout.css file, if you do not
+include a style for these classes you should remove the class from your html file //-->
+<body>
+
+<!--REMOVE ANY CLASS OBJECT WHICH YOU DO NOT USE TO STYLE YOUR FILE//-->
+
+    <main class= "main-style">
+	 <header class="page-header">  <!-- This is at the start of the page. It contains the heading and navigational links-->
+            <div class="header-content">  <!-- A div contains sections of content in the page. Only effects page when styled in css-->
+                <h1>My online portfolio</h1>
+                <p>A student studying computer science that's egar to learn, while also being an elite athlete.</p>
+            </div>
+        </header>
+	    <!-- You could style Main here if you wish-->
+        <nav class="page-nav"> <!-- the navigation part of the page.  Note links just jump to different parts of the page.-->
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#work">Work Experience</a></li>
+                <li><a href="#images">Image Gallery</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+       
+    <!--Note here the use of an ID.  the link above actually links to this.  It's a good example of where an ID can be used.  Note also that the section has a class attribute.  use this for styling. -->
+        <section id="about" class="about-me container">  <!--Seperates this section from other sections with the id about -->
+            <div class="container-content">
+                <h2>About Me</h2>
+				
+                <div class="content">
+                    <!-- add your 150 word maximum About Me content here.  Use HTML you know, marks for the HTML.  Marks deducted for poor grammar, spelling errors etc. -->
+					<img src="images/childpic.jpg" alt="Picture of me" style="widtth:350px;height:200px;">
+					<p>My name is Fionn Hourican, I am 19 years of age. I am studying computer science at DCU (Dublin college university).
+				I'm from  Dromard in county Longford. I went to primary school in Dromard NS and then Moyne CS for my post-primary education.
+				My favorite pastime is Gaelic football.I play senior for my club, Dromard, county u20, and also with the DCU freshers.</p>
+				<a href=https://www.instagram.com/fionn.hourican/><img src="images/instagram.png" alt="Instagram" style="widtth:100px;height:100px;"></a>
+				<a href=https://vsco.co/fionnhourican1/collection/1><img src="images/vsco.png" alt="Vsco" style="widtth:100px;height:100px;"></a>
+				<a href=https://twitter.com/FionnHourican><img src="images/twitter.png" alt="Twitter" style="widtth:100px;height:100px;"></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="work" class="work-experience container">
+            <div class="container-content">
+                <h2>Work Experience</h2>
+
+                <div class="content">
+                    <!-- add your 200 word maximum work experience content here.  You can use lists of things as well as paragraphs.  Show off the HTML you know.  marks for the HTML, and how well you use it. marks deducted for poor grammar or spelling errors-->
+					<p>In Ty (2017), I worked in <a href=https://www.ericsson.com/en>Ericcson</a>. Here I learned how to make a website using basic Html and CSS. I also learned how
+					telecommunications work and studied how an autonomous car would work using 5G. I worked with information providers in 2017, where 
+					I designed and made websites for various clients. I also worked in Abbots in Longford in 2017. Here I repaired machines on the    
+					factory floor. I currently work with CHCL on the weekends. I've been part of the company since 2016. This is a  
+					construction company whom I labour for. I am also a bricklayer as the money pays well.</p>
+                </div>
+            </div>
+        </section>
+				<br><br>
+
+        <section id="images" class="image-gallery container">
+		
+            <div class="container-content">
+                <h2>Image Gallery</h2>
+                <div class="content">
+				
+<figure class="an-image">
+  <!-- add image one here with 150 word maximum caption.  You may remove the caption if you wish.  Don't forget to use alt tags. -->
+     <figcaption class="image-caption">
+		<img src="images/crokepark.jpg" alt="Crokepark" style="widtth:350px;height:200px;">
+	 </figcaption>
+</figure>                   
+ <p>My biggest passion and hobby is <a href=https://www.gaa.ie//>Gaelic football</a>. I've played football since I was six years old and I am still playing now at nine-teen. I   
+	 currently play for four teams. Two of which are with my home club, Dromard GAA. I play with the senior team in division one and the u19 team    
+	 which are in the 13-aside division. I also play with the Longford u20 county team, I made my debut with Longford u20 in the 2021 Leinster       
+	 championship against Louth where I scored a point and set up 2-3. I currently play with the DCU Glasnevin freshers team and made my debut in the
+	 freshers league against St pats Dcu in a local rivalry where I played center halfback leading the team to the win.</p>
+
+<figure class="an-image">
+ <!-- add image one here with 150 word maximum caption.  You may remove the caption if you wish.  Don't forget to use alt tags. -->
+    <figcaption class="image-caption"> <img src="images/education.jpg" alt="Graduation" style="widtth:200px;height:200px;">   </figcaption>
+</figure> 
+<p>My education began in St Patricks NS Dromard where I attended from the age of 4 until I was 11 years old. Then I attended Moyne cs from the  
+	ages of 12 until 18. In Moyne, I studied seven subjects; Irish, English, Maths, Accounting, Physics, Geography, and French. Maths was my favourite
+	and best subject, in the leaving cert I got an H1. French was my least favourite subject, in the leaving cert, I got an O3 in this subject. I am  
+	now in my first year studying computer science at DCU.</p>
+
+<figure class="an-image">
+ <!-- add image one here with 150 word maximum caption.  You may remove the caption if you wish.  Don't forget to use alt tags. -->
+   <figcaption class="image-caption"> <img src="images/familypic.jpg" alt="Family on a walk" style="widtth:200px;height:200px;"> </figcaption>
+</figure> 
+   <p>There are six people in my family, My two parents, three siblings, and me. My sister Naoise is the youngest in the family, she is 15 years old and   
+   currently in TY. I'm the next youngest in the family. My brother Oisin is 23 and currently working in Ericsson. Oisin has a bachelor's of computer 
+   science. My brother Cillian is 25 and graduated from Trinity College Dublin with a degree in mathematics and has just gotten his master's from the 
+   University of Amsterdam in computational science. My Dad Paul works in Ericsson. My mother is an s&a in Dromard NS.</p>
+
+				
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact-me container">
+            <div class="container-content">
+                <h2>Contact Me</h2>
+                <div class="content">
+                    <form action="https://formspree.io/[your email address goes here]" method="post">
+	                    <!-- Style this nicely.  Don't worry if the form doesn't work, marks here for how well you style it. -->
+                        <p>
+                            <label for="contact-name">Your Name</label><br>
+                            <input id="contact-name" type="text" name="contact-name" placeholder="e.g..John Doe..." />
+                        </p>
+                        <p>
+                            <label for="contact-email">Your email address</label><br>
+                            <input id="contact-email" type="email" name="contact-email" placeholder="e.g..JohnDoe@hotmail.com..." /> </p>
+                        <p>
+                            <label for="contact-phone">Your phone number</label><br>
+                            <input id="contact-phone" type="tel" name="contact-phone" placeholder="e.g..087 123 4567..." /> </p>
+                        <p>
+                            <label for="contact-message">Your message</label><br>
+                            <textarea id="contact-message" name="contact-message" rows="5"> </textarea>
+                        </p>
+                        <p>
+                            <input type="submit" value="send my message" /> </p>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer id = "footer-layout">
+              <p> &copy; <a href="dcu.ie/">DCU 2020-2021</a>
+				<span class="footer-separator">&middot;</span>
+				<span class="footer-text">Fionn Hourican</span> 
+				<span class="footer-separator">&middot;</span> 
+				<span class="footer-text">This is student coursework</span> 
+				<span class="footer-separator">&middot;</span>
+				<span class="footer-text">Lecturer<a href="http://www.computing.dcu.ie/~jkernan">Jane Kernan</a></span> 
+				<span class="footer-separator">&middot;</span> 
+				<span class="footer-text"><a href="http://validator.w3.org/check?uri=referer" title="W3C HTML Validation Service" >Valid HTML</a><br/></span> 
+			</p>
+        <!-- Note that the link to the validator above will only produce results when your page is uploaded to the server, and you click on the link from the browser.-->
+         
+        </footer>
+    </main>
+</body>
+
+</html>
